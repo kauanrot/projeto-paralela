@@ -1,0 +1,12 @@
+    37.89%  [.] __vfscanf_internal                    -      -            
+     9.56%  [.] __strstr_generic                      -      -            
+     7.51%  [.] __strcmp_avx2                         -      -            
+     4.74%  [.] __GI_____strtoll_l_internal           -      -            
+     4.74%  [.] __strchr_avx2                         -      -            
+     3.22%  [.] __strlen_avx2                         -      -            
+     2.68%  [.] __isoc99_sscanf                       -      -            
+     2.50%  [.] _IO_sputbackc                         -      -            
+     2.50%  [.] contar_item                           -      -            
+     2.41%  [.] read                                  -      -            
+     1.79%  [.] __memchr_avx2                         -      -            
+     1.52%  [.] _IO_fgets                             -      -            

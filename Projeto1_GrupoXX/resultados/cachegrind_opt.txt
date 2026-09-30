@@ -1,0 +1,24 @@
+==16876== Cachegrind, a high-precision tracing profiler
+==16876== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==16876== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==16876== Command: ./bin/log_analyzer_par_optimized logs/amostra.txt 4
+==16876== 
+--16876-- warning: L3 cache found, using its data for the LL simulation.
+--16876-- warning: specified LL cache: line_size 64  assoc 1  total_size 335,544,320
+--16876-- warning: simulated LL cache: line_size 64  assoc 1  total_size 268,435,456
+==16876== 
+==16876== I refs:        714,065,113
+==16876== I1  misses:          2,452
+==16876== LLi misses:          2,149
+==16876== I1  miss rate:        0.00%
+==16876== LLi miss rate:        0.00%
+==16876== 
+==16876== D refs:        258,016,846  (165,955,784 rd   + 92,061,062 wr)
+==16876== D1  misses:         86,095  (     70,578 rd   +     15,517 wr)
+==16876== LLd misses:          6,822  (      1,621 rd   +      5,201 wr)
+==16876== D1  miss rate:         0.0% (        0.0%     +        0.0%  )
+==16876== LLd miss rate:         0.0% (        0.0%     +        0.0%  )
+==16876== 
+==16876== LL refs:            88,547  (     73,030 rd   +     15,517 wr)
+==16876== LL misses:           8,971  (      3,770 rd   +      5,201 wr)
+==16876== LL miss rate:          0.0% (        0.0%     +        0.0%  )

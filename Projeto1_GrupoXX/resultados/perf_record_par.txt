@@ -1,0 +1,12 @@
+    22.04%  [.] __vfscanf_internal                    -      -            
+     8.46%  [.] __GI___lll_lock_wake                  -      -            
+     6.52%  [.] __GI___lll_lock_wait                  -      -            
+     6.17%  [k] 0xffffffff8943ed3d                    -      -            
+     5.27%  [.] __strcmp_avx2                         -      -            
+     5.12%  [.] __strstr_generic                      -      -            
+     2.64%  [k] 0xffffffff89454c81                    -      -            
+     2.54%  [.] __strchr_avx2                         -      -            
+     2.49%  [.] __strlen_avx2                         -      -            
+     2.39%  [.] __GI_____strtoll_l_internal           -      -            
+     2.29%  [.] pthread_mutex_unlock@@GLIBC_2.2.5     -      -            
+     1.99%  [.] _IO_sputbackc                         -      -            

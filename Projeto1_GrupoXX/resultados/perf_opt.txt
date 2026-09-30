@@ -1,0 +1,14 @@
+
+ Performance counter stats for './bin/log_analyzer_par_optimized ../access_log_large.txt 4':
+
+           1090.35 msec task-clock                       #    3.823 CPUs utilized             
+               126      context-switches                 #  115.559 /sec                      
+                 2      cpu-migrations                   #    1.834 /sec                      
+               178      page-faults                      #  163.250 /sec                      
+
+       0.285209094 seconds time elapsed
+
+       1.012993000 seconds user
+       0.077616000 seconds sys
+
+
