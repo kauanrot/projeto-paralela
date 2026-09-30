@@ -1,0 +1,5 @@
+bin/
+logs/
+*.out
+*.data
+../access_log_large.txt
